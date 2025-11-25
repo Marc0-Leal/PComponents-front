@@ -1,0 +1,3 @@
+- [ ] Create src/pages/Registro.jsx with registration form (name, email, password, confirm password, "Registrarme" button that navigates to /)
+- [ ] Edit src/pages/InicioSesion.jsx to add login form (email, password) and "Registrarse" button that navigates to /registro
+- [ ] Update src/App.jsx to add routes for /inicio-sesion and /registro
