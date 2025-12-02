@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import ProductCard from '../components/organisms/ProductCard';
 import { getMergedProducts } from '../utils/productLoader';
-import bgImage from '../assets/img/Fondo.webp';
+import Image from '../public/img/Fondo.webp'
 function Products() {
   const [products, setProducts] = useState(() => getMergedProducts());
 
