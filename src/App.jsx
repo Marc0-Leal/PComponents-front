@@ -11,7 +11,7 @@ import Home from './pages/Home';
 import Carrito from './pages/Carrito';
 import Blog from './pages/Blog';
 import CreatorsPanel from './pages/admin/CreatorsPanel';
-
+<img src="https://res.cloudinary.com/dipp5dzje/image/upload/v1764642962/Teclado_xfum4n.webp" alt="teclado" />
 
 
 

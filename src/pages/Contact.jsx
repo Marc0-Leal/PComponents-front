@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import Text from '../components/atoms/Text.jsx';
 import DynamicForm from '../components/molecules/DynamicForm.jsx';
 import Button from '../components/atoms/Button.jsx'; // Importar tu componente Button
-
 function Contact() {
     const initialFormData = {
         name: '',
@@ -52,6 +51,7 @@ function Contact() {
 
     return (
         <Container className="my-5">
+            <img src='/img/Fondo.webp' alt="fondo" />
             <Text variant="h1">Contacto</Text>
             <Text variant="p">Llena el formulario para poder contactarte</Text>
             <DynamicForm inputs={formInputs} />
